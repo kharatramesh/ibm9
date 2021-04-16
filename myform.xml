@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="myform.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="750"
+ height="750"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The e-mail address you entered does not match!"
+ reqmessage="One or more fields are required."
+ invalidemailmsg="does not appear to be a valid e-mail address. Would you like to change it?"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://www.siivf.com"
+></hidden>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<textinput
+ name="Husband name"
+ x="111"
+ y="0"
+ w="388"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Husband age"
+ x="553"
+ y="0"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Wife name"
+ x="111"
+ y="41"
+ w="388"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Wife age"
+ x="553"
+ y="41"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Address"
+ x="111"
+ y="82"
+ w="388"
+ h="59"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="Married year"
+ x="207"
+ y="166"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Married months"
+ x="291"
+ y="166"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Trying year"
+ x="207"
+ y="209"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Trying months"
+ x="291"
+ y="210"
+ w="40"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Previous treatment details"
+ x="111"
+ y="312"
+ w="388"
+ h="104"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<checkbox
+ name="Laparoscopy Hysteroscopy"
+ x="1"
+ y="277"
+ w="164"
+ h="19"
+ label="Laparoscopy Hysteroscopy"
+ labelPos="right"
+ value="checked"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="ICSI"
+ x="311"
+ y="277"
+ w="39"
+ h="19"
+ label="ICSI"
+ labelPos="right"
+ value="checked"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="IUI"
+ x="195"
+ y="277"
+ w="31"
+ h="19"
+ label="IUI"
+ labelPos="right"
+ value="checked"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="IVF"
+ x="252"
+ y="277"
+ w="33"
+ h="19"
+ label="IVF"
+ labelPos="right"
+ value="checked"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<textinput
+ name="Contact"
+ x="111"
+ y="434"
+ w="165"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="E-mail"
+ x="111"
+ y="475"
+ w="164"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<submitbutton
+ name="Submit Button"
+ x="111"
+ y="516"
+ w="100"
+ h="20"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 1"
+ x="0"
+ y="0"
+ w="109"
+ h="16"
+ text="Name (Husband) :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="0"
+ y="41"
+ w="84"
+ h="16"
+ text="Name (Wife) :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="0"
+ y="82"
+ w="60"
+ h="16"
+ text="Address :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="0"
+ y="166"
+ w="198"
+ h="16"
+ text="How long have you been married?"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="0"
+ y="209"
+ w="187"
+ h="16"
+ text="How long have you been trying?"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="0"
+ y="248"
+ w="162"
+ h="16"
+ text="Previous treatment details :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="594"
+ y="0"
+ w="36"
+ h="16"
+ text="years"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="515"
+ y="0"
+ w="35"
+ h="16"
+ text="Age :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="515"
+ y="41"
+ w="35"
+ h="16"
+ text="Age :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="594"
+ y="41"
+ w="36"
+ h="16"
+ text="years"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="250"
+ y="166"
+ w="36"
+ h="16"
+ text="years"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="334"
+ y="166"
+ w="47"
+ h="16"
+ text="months"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 13"
+ x="334"
+ y="209"
+ w="47"
+ h="16"
+ text="months"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="250"
+ y="209"
+ w="36"
+ h="16"
+ text="years"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="0"
+ y="434"
+ w="57"
+ h="16"
+ text="Contact :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 16"
+ x="0"
+ y="475"
+ w="49"
+ h="16"
+ text="E-mail :"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>
